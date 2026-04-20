@@ -15,9 +15,8 @@
 - 🔎 Geração automática de variações de domínio (typosquatting)
 - 🌐 Teste de disponibilidade via HTTP e HTTPS
 - 📊 Exportação dos resultados em CSV
-- 📧 Envio de alertas por e-mail para domínios ativos
+- 📧 Envio de alertas por e-mail
 - 🧠 Suporte a múltiplas palavras-chave
-- 💀 Interface estilo ferramenta de pentest (banner + loading)
 
 ---
 
@@ -26,6 +25,16 @@
 <p align="center">
   <img src="assets/demo.png" alt="Domaine Hippie Demo" width="800"/>
 </p>
+
+---
+
+### 🔐 Configuração Obrigatória (E-mail)
+<p>Para que o envio de alertas funcione, o Google e outros provedores exigem o uso de uma Senha de Aplicativo. Você não deve usar sua senha convencional do e-mail no script.<p>
+- Acesse as configurações da sua Conta Google.
+- Ative a Verificação em duas etapas.
+- Pesquise por "Senhas de app".
+- Gere uma nova senha para "E-mail" e copie o código de 16 dígitos gerado.
+- No script: Utilize essa senha de 16 dígitos na variável de autenticação SMTP.
 
 ---
 

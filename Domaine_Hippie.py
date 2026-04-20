@@ -20,7 +20,7 @@ def banner():
         Domaine Hippie v1.0
         Domain Hunting & Typosquatting Tool
         ----------------------------------- 
-        Desenvolvido por F. Hgo Viana
+        Desenvolvido por F. Higo Viana
     """)
 
 def loading():
