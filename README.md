@@ -30,6 +30,7 @@
 
 ### 🔐 Configuração Obrigatória (E-mail)
 <p>Para que o envio de alertas funcione, o Google e outros provedores exigem o uso de uma Senha de Aplicativo. Você não deve usar sua senha convencional do e-mail no script.<p>
+
 - Acesse as configurações da sua Conta Google.
 - Ative a Verificação em duas etapas.
 - Pesquise por "Senhas de app".
